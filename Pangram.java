@@ -15,6 +15,8 @@ if(hm.size()==26){
 System.out.println("it is a pangram");
 }
 else{
+System.out.println("it is  not a pangram");
+System.out.println("The missing characters are :");
 for(char c='a';c<='z';c++){
 if(!hm.containsKey(c)){
 System.out.print(c+" ");
